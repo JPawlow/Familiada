@@ -1,0 +1,46 @@
+@import 'reset.scss';
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+@font-face {
+  font-family: 'Danger on the Motorway';
+  src: url('../../public/assets/fonts/dotm.woff') format('woff2');
+}
+
+body.familiada {
+  background-color: #2d3341;
+  color: #c2d785;
+  font-family: 'Danger on the Motorway', sans-serif;
+  font-size: 16px;
+
+  h1 {
+    font-size: 72px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+}
+
+.points {
+  font-weight: bolder;
+  width: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.fail {
+  color: rgba(0, 0, 0, 0.15);
+  font-size: 72px;
+
+  &.active {
+    color: #c2d785;
+    font-size: 72px;
+  }
+}
+
+a {
+  color: #c2d785;
+}
+.WinText{
+  text-align: center;
+}
